@@ -12,8 +12,10 @@ class App extends React.Component {
   render(){
     return(
       <div>
-        <Header title="My Page" subtitle="Well... it's fine!.. i think"/>
         <NavBar />
+        <div style={{paddingLeft: '12%'}}>
+          <Header title="My Page" subtitle="Well... it's fine!.. i think"/>
+        </div>
       </div>
     );
   }
