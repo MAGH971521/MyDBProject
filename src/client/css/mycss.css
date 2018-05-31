@@ -6,3 +6,21 @@
 header p{
   text-indent: 4em;
 }
+
+.main-container{
+  padding-left: 15%;
+}
+
+.input-form{
+  margin-bottom: 10px;
+}
+
+.base-button{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.divisor{
+  height: 100%;
+  width: 2px;
+}

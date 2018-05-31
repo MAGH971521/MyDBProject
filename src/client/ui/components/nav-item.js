@@ -2,7 +2,6 @@ import React from 'react';
 
 //Styles
 import '../../css/w3.css';
-import '../../css/w3-theme-blue.css';
 import '../../css/mycss.css';
 
 
@@ -21,7 +20,7 @@ class NavItem extends React.Component {
 
   render(){
     return(
-      <a className={this.state.hover ? "w3-bar-item w3-theme-l4": "w3-bar-item w3-theme"}
+      <a className={ "w3-bar-item " + (this.state.hover ? (this.props.ligthcolor): (this.props.maincolor))}
       onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} onClick={this.props.events}>
       {this.props.text}</a>
     );

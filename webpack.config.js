@@ -5,7 +5,7 @@ module.exports = {
   entry: ["./src/client/index.js"],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "js/[name].js"
+    filename: "client/[name].js"
   },
   devServer: {
     contentBase: "./dist"
